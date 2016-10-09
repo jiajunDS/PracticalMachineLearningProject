@@ -234,7 +234,8 @@ result
 ```
 
 ## Appendix: Figures
-1. Correlation Matrix Visualization  
+
+**1. Correlation Matrix Visualization**
 
 ```r
 corrPlot <- cor(trainData[, -length(names(trainData))])
@@ -242,7 +243,7 @@ corrplot(corrPlot, method="color")
 ```
 
 ![](report_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
-2. Decision Tree Visualization
+**2. Decision Tree Visualization**
 
 ```r
 treeModel <- rpart(classe ~ ., data=trainData, method="class")
