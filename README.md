@@ -1,4 +1,4 @@
-# PracticalMachineLearning
+# Practical Machine Learning
 Practical Machine Learning Assignment
 
 ## Background
