@@ -113,7 +113,8 @@ result
 ```  
 
 ## Appendix: Figures
-1. Correlation Matrix Visualization  
+
+1. Correlation Matrix Visualization
 ```{r, cache = T}
 corrPlot <- cor(trainData[, -length(names(trainData))])
 corrplot(corrPlot, method="color")
